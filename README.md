@@ -22,14 +22,20 @@ cd desafio-Cognitiva-Brasil
 
 **2. Instale as dependências necessárias**  
 ```bash
-pip instal -r requirements.txt
+pip install -r requirements.txt
 ```
 
 **3. Crie e ative o ambiente virtual**   
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
+```  
+Se a execução de scripts estiver desabilitado no seu sistema, execute o seguinte código no seu prompt de comando:
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+OBS.: Coloque "A (sim para tudo)"
+
 
 **4. Configure as variáveis de ambiente**  
 Crie um arquivo .env na raiz do projeto e adicione as chaves de API dos serviços utilizados. O arquivo deve seguir o seguinte formato:
