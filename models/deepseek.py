@@ -1,5 +1,5 @@
 import ollama
-.
+
 def acessar_deepseek(pergunta):
     try:
         resposta = ollama.chat(
