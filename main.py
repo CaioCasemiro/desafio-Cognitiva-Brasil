@@ -2,7 +2,7 @@ from models.gemini import acessar_gemini
 from models.deepseek import acessar_deepseek
 from models.mistral import acessar_mistral
 from service.comparador import comparar_respostas
-
+.
 def main():
     pergunta = "De forma resumida, em português, qual é a importância da inteligência artificial na sociedade moderna?"
     

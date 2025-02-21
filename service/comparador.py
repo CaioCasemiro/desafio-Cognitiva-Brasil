@@ -1,5 +1,5 @@
 from models.gemini import acessar_gemini
-
+.
 def comparar_respostas(respostas):
     criterios = (
         "clareza, coerência, precisão da informação, criatividade e gramática. "
